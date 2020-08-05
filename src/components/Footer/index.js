@@ -7,7 +7,6 @@ function Footer() {
     <FooterBase>
       <a href="/">
         <img src={LOGO} alt="Logo Stoneplay" />
-       <img className = 'Logo' src = {LOGO} alt = 'Stoneflix logo'/>   
       </a>
       <p>
         Orgulhosamente criado durante a
