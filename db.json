@@ -20,20 +20,11 @@
       },
       {
         "id": 3,
-        "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
-      },
-      {
-        "id": 4,
         "titulo": "Filmes",
         "cor": "orange"
       },
       {
-        "id": 5,
+        "id": 4,
         "titulo": "Games",
         "cor": "red",
         "link_extra": {
@@ -42,19 +33,28 @@
         }
       },
       {
-        "id": 6,
+        "id": 5,
         "titulo": "Séries",
         "cor": "#29088A"
       },
       {
-        "id": 7,
+        "id": 6,
         "titulo": "Podcasts sobre Tecnologia",
         "cor": "#5882FA",
         "link_extra": {
             "text": "HIPSTERS PONTO TECH - Podcasts da Alura",
             "url": "https://hipsters.tech/"
+      	} 
+      },
+      {
+        "id": 7,
+        "titulo": "Data Science e Inteligência Artificial",
+        "cor": "#9cd33b",
+        "link_extra": {
+          "text": "Cursos de Data Science na Alura",
+          "url": "https://www.alura.com.br/cursos-online-mobile"
         }
-      }
+      },
     ],
     "videos": [
       {
@@ -132,129 +132,129 @@
       },
       {
         "id": 13,
-        "categoriaId": 3,
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "O que é Data Science?",
-        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "Melhor forma de aprender Python",
-        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "Como ingressar no mercado de Data Science?",
-        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-      },
-      {
-        "id": 17,
         "categoriaId": 4,
         "titulo": "Interestellar",
         "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
       },
       {
-        "id": 18,
+        "id": 14,
         "categoriaId": 4,
         "titulo": "Gattaca",
         "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
       },
       {
-        "id": 19,
+        "id": 15,
         "categoriaId": 4,
         "titulo": "A Chegada",
         "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
       },
       {
-        "id": 20,
+        "id": 16,
         "categoriaId": 4,
         "titulo": "Feitiço do Tempo",
         "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
       },
       {
-        "id": 21,
+        "id": 17,
         "categoriaId": 5,
         "titulo": "Final Fantasy 7",
         "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
       },
       {
-        "id": 22,
+        "id": 18,
         "categoriaId": 5,
         "titulo": "Assassins Creed Valhalla",
         "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
       },
       {
-        "id": 23,
+        "id": 19,
         "categoriaId": 5,
         "titulo": "God of War 4",
         "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
       },
       {
-        "id": 24,
+        "id": 20,
         "categoriaId": 5,
         "titulo": "Resident Evil 8",
         "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
       },
       {
-        "id": 25,
+        "id": 21,
         "categoriaId": 6,
         "titulo": "Silicon Valley",
         "url": "https://www.youtube.com/watch?v=Vm4tx1O9GAc"
       },
       {
-        "id": 26,
+        "id": 22,
         "categoriaId": 6,
         "titulo": "Black Mirror",
         "url": "https://www.youtube.com/watch?v=i9Wc82gCZLE"
       },
       { 
-        "id": 27,
+        "id": 23,
         "categoriaId": 6,
         "titulo": "O Código Bill Gates",
         "url": "https://www.youtube.com/watch?v=yOCjrGevsdo&feature=emb_title"
       },
       {
-        "id": 28,
+        "id": 24,
         "categoriaId": 6,
         "titulo": "Mr.Robot",
         "url": "https://www.youtube.com/watch?v=8qZYW_1hj2g"
       },
       {
-        "id": 29,
+        "id": 25,
         "categoriaId": 6,
         "titulo": "Scorpion",
         "url": "https://www.youtube.com/watch?v=liV_LoMSteo"
       },
       {
-        "id": 30,
+        "id": 26,
         "categoriaId": 6,
         "titulo": "Chuck",
         "url": "https://www.youtube.com/watch?v=WQ6GviX2l40"
       },
       {
-        "id": 31,
+        "id": 27,
         "categoriaId": 7,
         "titulo": "Pizza de Dados - Ep 001  ",
         "url": "https://www.youtube.com/watch?v=IahkKrAJyQY&t=395s"
       },
       {
-        "id": 32,
+        "id": 28,
         "categoriaId": 7,
         "titulo": "HIPSTERS PONTO TECH - Ep 01  ",
         "url": "https://hipsters.tech/?powerpress_embed=223-podcast&amp;powerpress_player=mediaelement-audio"
       },
       {
-        "id": 33,
+        "id": 29,
         "categoriaId": 7,
         "titulo": "Data Science Academy - ep 01",
         "url": "https://www.youtube.com/watch?v=NmCuEgkVLWo&list=PLlDg_wRHtbjJVzxfbDts9URM_a_BK8PPJ"
+      },
+      {
+        "id": 30,
+        "categoriaId": 3,
+        "titulo": "Teste de Turing",
+        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      },
+      {
+        "id": 31,
+        "categoriaId": 3,
+        "titulo": "O que é Data Science?",
+        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      },
+      {
+        "id": 32,
+        "categoriaId": 3,
+        "titulo": "Melhor forma de aprender Python",
+        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      },
+      {
+        "id": 33,
+        "categoriaId": 3,
+        "titulo": "Como ingressar no mercado de Data Science?",
+        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
       }
     ]
   }
