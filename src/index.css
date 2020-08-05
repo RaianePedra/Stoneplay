@@ -22,12 +22,8 @@ body {
 
 a {
   color: inherit;
-<<<<<<< HEAD
 } 
 
-=======
-}
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 #root {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
