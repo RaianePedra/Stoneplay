@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* eslint-disable react/jsx-props-no-spreading */
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
@@ -58,8 +55,4 @@ const Slider = ({ children }) => (
   </Container>
 );
 
-<<<<<<< HEAD
 export default Slider;
-=======
-export default Slider; 
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
