@@ -3,28 +3,22 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 const FormFieldWrapper = styled.div`
-<<<<<<< HEAD
   position: relative; 
   textarea {
     min-height: 150px;
   }
 
-=======
   position: relative;
   textarea {
     min-height: 150px;
   }
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
   input[type="color"] {
     padding-left: 56px;
   }
 `;
 
 const Label = styled.label``;
-<<<<<<< HEAD
-=======
 
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 Label.Text = styled.span`
   color: #E5E5E5;
   height: 57px;
@@ -66,7 +60,6 @@ const Input = styled.input`
   &:focus {
     border-bottom-color: var(--primary);
   }
-<<<<<<< HEAD
 
   &:focus:not([type="color"]) + span {
     transform: scale(.6) translateY(-10px);
@@ -104,43 +97,11 @@ function FormField({
           onChange={onChange}
           autoComplete={hasSuggestions ? 'off' : 'on'}
           list={hasSuggestions ? `suggestionFor_${fieldId}` : undefined}
-=======
-  &:focus:not([type='color']) + ${Label.Text} {
-    transform: scale(.6) translateY(-10px);
-  }
-  ${({ value }) => {
-    const hasValue = value.length > 0;
-    return hasValue && css`
-        &:not([type='color']) + ${Label.Text} {
-          transform: scale(.6) translateY(-10px);
-        }
-      `;
-  }
-}
-`;
-
-function FormField({
-  label, type, name, value, onChange,
-}) {
-  const isTypeTextArea = type === 'textarea';
-  const tag = isTypeTextArea ? 'textarea' : 'input';
-
-  return (
-    <FormFieldWrapper>
-      <Label>
-        <Input
-          as={tag}
-          type={type}
-          value={value}
-          name={name}
-          onChange={onChange}
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
         />
         <Label.Text>
           {label}
           :
         </Label.Text>
-<<<<<<< HEAD
         {
           hasSuggestions && (
             <datalist id={`suggestionFor_${fieldId}`}>
@@ -155,8 +116,6 @@ function FormField({
           )
         }
 
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
       </Label>
     </FormFieldWrapper>
   );
@@ -165,16 +124,12 @@ function FormField({
 FormField.defaultProps = {
   type: 'text',
   value: '',
-<<<<<<< HEAD
   onChange: () => {},
   suggestions: [],
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 };
 
 FormField.propTypes = {
   label: PropTypes.string.isRequired,
-<<<<<<< HEAD
   type: PropTypes.string,
   name: PropTypes.string.isRequired,
   value: PropTypes.string,
@@ -183,12 +138,3 @@ FormField.propTypes = {
 };
 
 export default FormField;
-=======
-  name: PropTypes.string.isRequired,
-  type: PropTypes.string,
-  value: PropTypes.string,
-  onChange: PropTypes.func.isRequired,
-};
-
-export default FormField;
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
