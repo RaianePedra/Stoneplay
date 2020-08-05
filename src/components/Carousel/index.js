@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* eslint-disable react/prop-types */
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
@@ -14,11 +11,7 @@ function Carousel({
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
-<<<<<<< HEAD
   const { videos } = category;
-=======
-  const videos = category.videos;
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -26,20 +19,12 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-<<<<<<< HEAD
           {categoryExtraLink
             && (
             <ExtraLink href={categoryExtraLink.url} target="_blank">
               {categoryExtraLink.text}
             </ExtraLink>
             )}
-=======
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
-            </ExtraLink>
-          }
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
         </>
       )}
       <Slider>
