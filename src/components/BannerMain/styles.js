@@ -96,11 +96,7 @@ export const BannerMainContainer = styled.section`
 
   &:after {
     bottom: 0;
-<<<<<<< HEAD
     background: linear-gradient(0deg, #000000 0%, transparent 100%);
-=======
-    background: linear-gradient(0deg, #141414 0%, transparent 100%);
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
   }
 `;
 
@@ -126,8 +122,4 @@ export const WatchButton = styled.button`
   @media (max-width: 800px) {
     display: block;
   }
-<<<<<<< HEAD
 `;
-=======
-`;
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
