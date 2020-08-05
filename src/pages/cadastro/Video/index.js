@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
@@ -26,18 +25,10 @@ function CadastroVideo() {
       });
   }, []);
 
-=======
-import React from 'react';
-import { Link } from 'react-router-dom';
-import PageDefault from '../../../components/PageDefault';
-
-function CadastroVideo() {
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
   return (
     <PageDefault>
       <h1>Cadastro de Video</h1>
 
-<<<<<<< HEAD
       <form onSubmit={(event) => {
         event.preventDefault();
         // alert('Video Cadastrado com sucesso!!!1!');
@@ -87,20 +78,11 @@ function CadastroVideo() {
       <br />
       <br />
 
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
       <Link to="/cadastro/categoria">
         Cadastrar Categoria
       </Link>
     </PageDefault>
-<<<<<<< HEAD
   );
 }
 
 export default CadastroVideo;
-=======
-  )
-}
-
-export default CadastroVideo; 
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
