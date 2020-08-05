@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 /* eslint-disable import/prefer-default-export */
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
@@ -24,7 +21,6 @@ export const VideoCardContainer = styled.a`
   padding: 16px;
 
   transition: opacity .3s;
-<<<<<<< HEAD
 
   &:after {
     content: "";
@@ -50,17 +46,11 @@ export const VideoCardContainer = styled.a`
     h2 {
       opacity: 1;
     }
-=======
-  &:hover,
-  &:focus {
-    opacity: .5;
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
   }
   
   &:not(:first-child) {
     margin-left: 20px;
   }
-<<<<<<< HEAD
 
   h2 {
     position: relative;
@@ -68,6 +58,4 @@ export const VideoCardContainer = styled.a`
     opacity: 0;
     transition: opacity .3s;
   }
-=======
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
 `;
