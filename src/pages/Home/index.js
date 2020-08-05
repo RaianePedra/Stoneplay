@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
 // import dadosIniciais from '../../data/dados_iniciais.json';
@@ -55,24 +54,6 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription="O que"
-=======
-import React from 'react';
-import Menu from '../../components/Menu'
-import dadosIniciais from '../../data/dados_iniciais.json';
-import BannerMain from '../../components/BannerMain';
-import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
-
-function Home() {
-  return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
-
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
       />
 
       <Carousel
@@ -86,7 +67,6 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-<<<<<<< HEAD
       />
 
       <Carousel
@@ -101,33 +81,3 @@ function Home() {
 }
 
 export default Home;
-=======
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />   
-
-      <Carousel
-        category={dadosIniciais.categorias[6]}
-      /> 
-
-      <Carousel
-        category={dadosIniciais.categorias[7]}
-      />    
-
-      <Footer />
-    </div>
-  );
-}
-
-export default Home;
->>>>>>> 427b58d1f670444d0f77ce60471c26bcc29206cb
