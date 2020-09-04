@@ -30,7 +30,7 @@ ou
 
 Para instalar as dependências e executar as mesmas.
 
-##Projeto final: 
+## Projeto final: 
 [Stoneplay](https://stoneplay.vercel.app/ "Stoneplay")
 
 
