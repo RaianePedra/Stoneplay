@@ -3,7 +3,7 @@
 </p>
 
 ### 📌 Layout 
-<p align="center"> <img alt="Layout" width="650px" src="https://github.com/RaianePedra/Stoneplay/blob/master/src/assets/img/Captura%20de%20Tela%20(4).png?raw=true" /></p>
+<p align="center"> <img alt="Layout" width="800px" src="https://github.com/RaianePedra/Stoneplay/blob/master/src/assets/img/Captura%20de%20Tela%20(4).png?raw=true" /></p>
  
 ### 📝 Descrição
 É um projeto desenvolvido na #ImersaoReact da Alura, que ocorreu durante os dias 27 até o dia 31 de julho de 2020.
