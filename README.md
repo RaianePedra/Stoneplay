@@ -2,10 +2,10 @@
   <img alt="Logo Stonepla" width="250px" src="https://github.com/RaianePedra/Stoneplay/blob/master/src/assets/img/LOGO.png?raw=true" />
 </p>
 
-### :tw-1f4cc: Layout 
+### 📌 Layout 
 <p align="center"> <img alt="Layout" width="480px" src="https://github.com/RaianePedra/Stoneplay/blob/master/src/assets/img/Captura%20de%20Tela%20(4).png?raw=true" /></p>
-
-###:tw-1f4dd: Descrição
+ 
+### 📝 Descrição
 É um projeto desenvolvido na #ImersaoReact da Alura, que ocorreu durante os dias 27 até o dia 31 de julho de 2020.
 <p align="center"><img alt="Logo do projeto" width="110px" src="https://www.alura.com.br/assets/img/imersoes/react/imersao-react-logo.1594044142.svg" /></p> É uma extensão do [Aluraflix](https://github.com/imersao-alura/aluraflix "Aluraflix") que foi desenvolvido no decorrer das aulas, pelos instrutores Marco Bruno, Juliana Negreiros, Mario Souto e participações do Paulo Silveira CEO da Alura.
 
@@ -20,7 +20,7 @@
     <li>JavaScript</li></ul>
 
 
- ###:tw-1f4a1: Como acessar o projeto
+ ## 💡 Como acessar o projeto
 Após clonar o repositório git, rodar os seguintes comandos no terminal:
 > 
 	npm install 
@@ -29,7 +29,7 @@ Após clonar o repositório git, rodar os seguintes comandos no terminal:
 ou
 
 >	 yarn
-	yarn run dev
+	 yarn run dev
 
 Para instalar as dependências e executar as mesmas.
 
