@@ -26,8 +26,8 @@ Após clonar o repositório git, rodar os seguintes comandos no terminal:
 
 ou
 
->		yarn
->		yarn run dev
+>	yarn
+>	yarn run dev
 
 Para instalar as dependências e executar as mesmas.
 
