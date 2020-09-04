@@ -13,8 +13,7 @@
 <ul><li>React</li>
     <li>React Route</li>
     <li>React Slick</li>
-    <li>JSON Server</li>
-    <li>JavaScript</li></ul>
+    <li>JSON Server</li></ul>
 
 
  ## 💡 Como acessar o projeto
