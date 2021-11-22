@@ -31,6 +31,6 @@ ou
 Para instalar as dependências e executar as mesmas.
 
 ## Projeto final: 
-[Stoneplay](https://stoneplay.vercel.app/ "Stoneplay")
+[Stoneplay](https://stoneplay.vercel.app/)
 
 
